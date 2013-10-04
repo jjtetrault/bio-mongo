@@ -121,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/json/query.js">
+      <file leaf-file-name="query.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/js/query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="1037" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,10 +148,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VCFMongoStoreMain.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="VCFMongoStoreMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/vcftojson/VCFMongoStoreMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="27" selection-start="3955" selection-end="3955" vertical-scroll-proportion="3.5478468">
+            <state line="144" column="27" selection-start="3955" selection-end="3955" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -190,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/VCFtoJSONConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/VarientLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/VCFtoJSON.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/vcftojson/VCFtoJSON.java" />
@@ -206,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/vcftojson/VCFProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/vcf/example.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/vcftojson/VCFMongoStoreMain.java" />
+        <option value="$PROJECT_DIR$/src/main/js/query.js" />
       </list>
     </option>
   </component>
@@ -287,6 +287,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VCFRepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VCFRepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -578,7 +606,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="831" extended-state="7" />
+    <frame x="0" y="22" width="1440" height="831" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -591,16 +619,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2801724" sideWeight="0.6741573" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28879312" sideWeight="0.6741573" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24928162" sideWeight="0.6741573" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24928162" sideWeight="0.6741573" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32517007" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.9992821" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -671,6 +699,13 @@
         <state line="33" column="12" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.034246575" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/loader.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/vcf/example.vcf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="136" selection-start="1898" selection-end="1898" vertical-scroll-proportion="0.0">
@@ -681,13 +716,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/vcftojson/VCFLineProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="47" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/json/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -706,16 +734,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/loader.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/vcftojson/VCFMongoStoreMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+        <state line="144" column="27" selection-start="3955" selection-end="3955" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bluefoundry/pilot/vcfrepo/vcftojson/VCFMongoStoreMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/js/query.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="27" selection-start="3955" selection-end="3955" vertical-scroll-proportion="3.5478468">
+        <state line="0" column="0" selection-start="0" selection-end="1037" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

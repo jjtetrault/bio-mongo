@@ -2,6 +2,7 @@
 
 // First, ensure the indices.  This will take some time if not indexed
 db.publicvariants.ensureIndex( { "POS": 1 }, { background: true } )
+db.variants.ensureIndex( { "POS": 1 }, { background: true } )
 // Remember to background your index call
 
 // Here is our range definition
