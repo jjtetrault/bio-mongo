@@ -17,5 +17,4 @@ This project contains demonstration code for MongoDB and Genetics.
       Optional:  Replace filename with a Directory full of VCF Files.
       Optional:  Use the -public flag to load public VCF files into a different set of collections.
     
-    Query:
-      An example query file to query this loaded VCF File is located in VCFStore/src/main/js/query.js
+    Query:  An example query file to query this loaded VCF File is located in VCFStore/src/main/js/query.js
