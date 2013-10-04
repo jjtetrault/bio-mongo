@@ -26,10 +26,10 @@ db.variants.find(
 // Query for a specific variant in a range
 db.publicvariants.find(
     {"POS":{$gte: begin, $lt: end},
-        "CHROM":{$regex : chrom},
+        "CHROM":{$regex : chromosome},
         "ALT":variant})
 
 db.variants.find(
     {"POS":{$gte: begin, $lt: end},
-        "CHROM":{$regex : chrom},
+        "CHROM":{$regex : chromosome},
         "ALT":variant})
