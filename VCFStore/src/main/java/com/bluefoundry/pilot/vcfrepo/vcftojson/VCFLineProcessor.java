@@ -57,7 +57,6 @@ public class VCFLineProcessor
 
             headerIndex++;
         }
-        //TODO:  Can we some how normalize the chromosome position?
         return structure;
     }
 

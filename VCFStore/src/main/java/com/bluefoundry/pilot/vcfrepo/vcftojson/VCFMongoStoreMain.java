@@ -28,7 +28,7 @@ public class VCFMongoStoreMain
     
     public VCFMongoStoreMain()
     {
-        
+
     }
 
     /**
@@ -40,6 +40,11 @@ public class VCFMongoStoreMain
     private void run(String[] args)
             throws Exception
     {
+        if(args.length == 0 || (args.length > 0 && args[0].contains("-h")))
+        {
+            printUsage();
+            return;   
+        }
         // Load the property file
         Properties appProperties = new Properties();
         appProperties.load(new FileInputStream("loader.properties"));
@@ -128,6 +133,17 @@ public class VCFMongoStoreMain
         return result;
     }
 
+    /**
+     *
+     * Print loader usage
+     *
+     */
+    private void printUsage()
+    {
+        System.out.println("java -jar VCFLoader.jar <FileName>.vcf\n" +
+            "  Optional:  Replace FileName with a Directory full of VCF Files.\n" +
+            "  Optional:  Use the -public flag to load public VCF files into a different set of collections.");
+    }
 
     public static void main(String[] args)
     {

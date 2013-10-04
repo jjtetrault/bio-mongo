@@ -27,7 +27,7 @@ public class VCFProcessor
     private String variantCollection;
     private String vcfCollection;
 
-    private static int flushsize = 10000;
+    private final static int flushsize = 10000;
 
     UUID id = UUID.randomUUID();
 
@@ -112,7 +112,6 @@ public class VCFProcessor
         Gson doc = new GsonBuilder().create();
         this.fileHeaders.put("__vcfid", id.toString());
         String fileJSON = doc.toJson(this.fileHeaders);
-
 
         DBObject dbObject = (DBObject) JSON.parse(fileJSON);
         DBCollection collection = mongoDB.getCollection(this.vcfCollection);

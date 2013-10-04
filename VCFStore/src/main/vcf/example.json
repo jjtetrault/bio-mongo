@@ -1,0 +1,117 @@
+{
+    "_id" : ObjectId("524e1cd9a0ee02cc58013cd4"),
+"ALT" : [
+"A"
+],
+"QUAL" : "29",
+"NA00001" : "0|0:48:1:51,51",
+"POS" : 14370,
+"NA00002" : "1|0:48:8:51,51",
+"FILTER" : "PASS",
+"CHROM" : "20",
+"NA00003" : "1/1:43:5:.,.",
+"FORMAT" : "GT:GQ:DP:HQ",
+"__vcfid" : "b38deb62-7ba0-4592-adf4-3cbdaf720f7e",
+"ID" : "rs6054257",
+"INFO" : {
+"DP" : "14",
+"AF" : "0.5",
+"NS" : "3"
+},
+"REF" : "G"
+}
+
+{
+"_id" : ObjectId("524e1cd9a0ee02cc58013cd5"),
+"ALT" : [
+"A"
+],
+"QUAL" : "3",
+"NA00001" : "0|0:49:3:58,50",
+"POS" : 17330,
+"NA00002" : "0|1:3:5:65,3",
+"FILTER" : "q10",
+"CHROM" : "20",
+"NA00003" : "0/0:41:3",
+"FORMAT" : "GT:GQ:DP:HQ",
+"__vcfid" : "b38deb62-7ba0-4592-adf4-3cbdaf720f7e",
+"ID" : ".",
+"INFO" : {
+"DP" : "11",
+"AF" : "0.017",
+"NS" : "3"
+},
+"REF" : "T"
+}
+
+{
+"_id" : ObjectId("524e1cd9a0ee02cc58013cd6"),
+"ALT" : [
+"G",
+"T"
+],
+"QUAL" : "67",
+"NA00001" : "1|2:21:6:23,27",
+"POS" : 1110696,
+"NA00002" : "2|1:2:0:18,2",
+"FILTER" : "PASS",
+"CHROM" : "20",
+"NA00003" : "2/2:35:4",
+"FORMAT" : "GT:GQ:DP:HQ",
+"__vcfid" : "b38deb62-7ba0-4592-adf4-3cbdaf720f7e",
+"ID" : "rs6040355",
+"INFO" : {
+"AA" : "T",
+"DP" : "10",
+"AF" : "0.333,0.667",
+"NS" : "2"
+},
+"REF" : "A"
+}
+
+{
+"_id" : ObjectId("524e1cd9a0ee02cc58013cd7"),
+"ALT" : [
+"."
+],
+"QUAL" : "47",
+"NA00001" : "0|0:54:7:56,60",
+"POS" : 1230237,
+"NA00002" : "0|0:48:4:51,51",
+"FILTER" : "PASS",
+"CHROM" : "20",
+"NA00003" : "0/0:61:2",
+"FORMAT" : "GT:GQ:DP:HQ",
+"__vcfid" : "b38deb62-7ba0-4592-adf4-3cbdaf720f7e",
+"ID" : ".",
+"INFO" : {
+"AA" : "T",
+"DP" : "13",
+"NS" : "3"
+},
+"REF" : "T"
+}
+
+{
+"_id" : ObjectId("524e1cd9a0ee02cc58013cd8"),
+"ALT" : [
+"G",
+"GTCT"
+],
+"QUAL" : "50",
+"NA00001" : "0/1:35:4",
+"POS" : 1234567,
+"NA00002" : "0/2:17:2",
+"FILTER" : "PASS",
+"CHROM" : "20",
+"NA00003" : "1/1:40:3",
+"FORMAT" : "GT:GQ:DP",
+"__vcfid" : "b38deb62-7ba0-4592-adf4-3cbdaf720f7e",
+"ID" : "microsat1",
+"INFO" : {
+"AA" : "G",
+"DP" : "9",
+"NS" : "3"
+},
+"REF" : "GTC"
+}
