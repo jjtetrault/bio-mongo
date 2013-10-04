@@ -15,4 +15,4 @@ This project contains demonstration code for MongoDB and Genetics.
     
     Run: java -jar VCFLoader.jar <FileName>.vcf
       Optional:  Replace filename with a Directory full of VCF Files.
-      Optional:  use the -public flag to load public VCF files into a different set of collections.
+      Optional:  Use the -public flag to load public VCF files into a different set of collections.
